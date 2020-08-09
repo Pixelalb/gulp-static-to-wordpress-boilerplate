@@ -20,3 +20,29 @@ function cssinpage($file_name, $page_name) {
 		wp_enqueue_style( str_replace(array('.', '/'), array('-', '-'), $file_name), get_theme_file_uri() . "/" . $file_name );
 	}	
 }
+
+
+// The [url] shortcode - gets the value of specific param of the url. Use like this [url param="paramname"]
+function url($atts) {
+    $a = shortcode_atts( array(
+        'id' => '',
+        'param' => ''
+    ), $atts ); ?>
+
+
+    <?php
+        $id = $a['id'];
+        $param = $a['param'];
+    ?>
+
+    <?php ob_start(); ?>
+        
+        <?php  
+            $param_value = htmlspecialchars($_GET[$param]);
+            echo $param_value
+        ?>
+
+    <?php return ob_get_clean(); ?>
+<?php
+}
+add_shortcode( 'url', 'url' );
