@@ -1,14 +1,14 @@
 {
   "name": "Stegaru",
   "version": "1.0.0",
-  "description": "Build setup for static assets",
+  "description": "Build setup for static assets + WordPress theme dev",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pixelalb/gulp-scss-html-boilerplate"
+    "url": "https://github.com/Pixelalb/gulp-static-to-wordpress-boilerplate"
   },
   "keywords": [
     "gulp",
@@ -19,9 +19,9 @@
   "author": "STEGARU",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Pixelalb/gulp-scss-html-boilerplate"
+    "url": "https://github.com/Pixelalb/gulp-static-to-wordpress-boilerplate"
   },
-  "homepage": "https://github.com/Pixelalb/gulp-scss-html-boilerplate",
+  "homepage": "https://github.com/Pixelalb/gulp-static-to-wordpress-boilerplate",
   "devDependencies": {
     "browser-sync": ">=2.26.7",
     "cssnano": "^4.1.10",
