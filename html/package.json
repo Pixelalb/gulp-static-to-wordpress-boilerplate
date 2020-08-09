@@ -39,6 +39,7 @@
     "gulp-svgmin": ">=1.2.4",
     "gulp-svgstore": ">=6.1.0",
     "gulp-uglify": ">=3.0.0",
-    "gulp-useref": ">=3.1.2"
+    "gulp-useref": ">=3.1.2",
+    "node-normalize-scss": "^8.1.2"
   }
 }
