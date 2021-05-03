@@ -1,7 +1,7 @@
 let gulp = require('gulp');
-let sass = require('gulp-sass');
+let sass = require('gulp-dart-sass');
 let browserSync = require('browser-sync');
-let useref = require('gulp-useref');
+// let useref = require('gulp-useref');
 let uglify = require('gulp-uglify');
 let gulpIf = require('gulp-if');
 var fs = require('fs');
@@ -38,7 +38,7 @@ var wpCustomizerFileName = config.wpCustomizerFileName;
 var wordpressLocalThemePath = localWordPressThemesFolder + themeName;
 var wordpressRemoteThemePath = remoteWordPressPath + "/wp-content/themes/" + themeName;
 var wordpressLocalAssetsPath = wordpressLocalThemePath + "/" +  assetsFolder;
-var wordpressRemoteAssetsPath = remoteWordPressPath + "/wp-content/themes/"+ themeName + "/" + assetsFolder;
+// var wordpressRemoteAssetsPath = remoteWordPressPath + "/wp-content/themes/"+ themeName + "/" + assetsFolder;
 var customizerFile = setupAssetsFolder + "/"+ wpCustomizerFileName;
 
 
