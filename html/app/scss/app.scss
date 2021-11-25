@@ -1,5 +1,8 @@
-@import "base/normalize/import-now";
-@import 'base/global.scss';
-@import 'base/mixins.scss';
-@import 'base/typo.scss';
-@import 'base/layout.scss';
+@import "base/normalize";
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/global';
+@import 'base/typo';
+@import 'base/layout';
+@import 'base/extensions';
+

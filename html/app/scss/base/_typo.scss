@@ -1,0 +1,14 @@
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-family: $font-primary;
+	font-weight: 400;
+	color: $black;
+}
+
+a {
+	transition: ease all 250ms;
+}

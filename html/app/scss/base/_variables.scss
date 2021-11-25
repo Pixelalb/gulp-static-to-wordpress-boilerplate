@@ -1,0 +1,29 @@
+/* Typo 
+regular  - 400
+medium   - 500
+semibold - 600
+bold     - 700
+extrabold- 800
+*/ 
+$font-primary: 'Montserrat', sans-serif;
+
+
+/* Colors */
+$black: #202020;
+$dark-black: #020202;
+$red: #D72030;
+$light-gray: #E8EBED;
+$lighter-gray: #BABABA;
+$dark-gray: #979797;
+$dark-blue: #2E3191;
+$light-blue: #5A6167;
+$purple: #6736A4;
+$wine: #A11516;
+$orange: #A95808;
+$green: #55A100;
+$cyan: #00857A;
+$blue: #1D5BB0;
+
+
+$color-accent: $red;
+$form-input-border-color: $dark-gray;

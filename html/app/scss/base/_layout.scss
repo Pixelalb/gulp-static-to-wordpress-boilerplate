@@ -1,27 +1,25 @@
-$container-sizes:
-    "small" 600px,
-    "compact" 765px,
-    "medium" 990px,
-    "large" 1060px,
-    "xlarge" 1280px;
+$container-sizes: "small" 600px, "compact" 765px, "medium" 990px, "large" 1186px,
+"large-a" 1234px, "xlarge" 1440px;
 
 @each $value in $container-sizes {
-  .container-#{nth($value, 1)} {
-    margin:0 auto;
-    max-width: nth($value, 2);
-    padding: 0 20px;
-    @include breakpoint(large) {
+    .container-#{nth($value, 1)} {
+        margin: 0 auto;
+        max-width: nth($value, 2);
         padding: 0 20px;
-    }
+        position: relative;
+        z-index: 11;
+        @include breakpoint(large) {
+            padding: 0 20px;
+        }
 
-    &:after {
-        content: "";
-        clear: both;
-        display: table;
+        &:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
     }
-  }
 }
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }

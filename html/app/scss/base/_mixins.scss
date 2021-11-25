@@ -1,3 +1,9 @@
+@use "sass:math";
+@function toRem($value) {
+  $remValue: (math.div($value,16)) + rem; 
+  @return $remValue;
+}
+
 /*----------  A bit easier with SVG backgrounds. Why not?  ----------*/
 
 @mixin svgbg($svg) {
@@ -31,16 +37,12 @@
 }
 
 
-
-/*----------  MQ Breakpoints (by Zurb)  ----------*/
-
-
 $breakpoints: (
-  small: 0,
-  medium: 640px,
-  large: 1024px,
-  xlarge: 1200px,
-  xxlarge: 1440px,
+  phone: 0,
+  pad: 768px,
+  medium: 1024px,
+  large: 1330px,
+  xlarge: 1648px,
 ) !default;
 
 

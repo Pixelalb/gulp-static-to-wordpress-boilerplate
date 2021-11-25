@@ -1,10 +1,10 @@
 {
 	"assetsFolder" : "theme-assets",
-	"themeName" : "myTheme",
+	"themeName" : "kloudville",
 	"localWordPressThemeBackupFolder" : "../wp-theme-backup",
 	"localWordPressThemesFolder" : "../wordpress-local/app/public/wp-content/themes/",
 	"remoteStaticHTMLPath" : "[path to the folder of the static templates]",
-	"remoteWordPressPath" : "[path to the folder of your WP instance (root of WP)]",
+	"remoteWordPressPath" : "/var/www/kvl.stegaru-dev.com/public_html/",
 	"setupAssetsFolder" : "setup-assets",
 	"wpCustomizerFileName" : "stegaru-customizer.php"
 }
